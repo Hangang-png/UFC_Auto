@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>UFC AUTO - Book Online</title>
+  <link rel="stylesheet" href="book.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="../public/logo.jpg" alt="Logo">
+        <img src="../public/wrenches.jpg" class="rotating" alt="旋转头像" />
+        <p>UFC AUTO</p>	
+      </div>
+      <nav>
+        <ul class="horizontal-menu">
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../welcome/welcome.html">Welcome</a></li>
+          <li><a href="../service/service.html">Service List</a></li>
+          <li><a href="../about/about.html">Who we are?</a></li>
+          <li><a href="../book/book.html">Book online</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="content">
+    <h1>Book a Service</h1>
+    <form action="#" method="post" class="booking-form">
+      <label for="name">Full Name:</label>
+      <input class="txtInput" type="text" id="name" name="name" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email">
+
+      <label for="service">Select Service:</label>
+      <select id="service" name="service" required>
+        <option value="">-- Please choose a service --</option>
+        <option value="diagnostics">Engine Diagnostics & Repair</option>
+        <option value="brakes">Brake System Maintenance</option>
+        <option value="transmission">Transmission Service</option>
+        <option value="suspension">Suspension Repair</option>
+        <option value="oil">Oil Change</option>
+        <option value="tires">Tire Replacement</option>
+        <option value="electrical">Electrical Diagnostics</option>
+      </select>
+
+      <label for="date">Preferred Date:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="notes">Additional Notes:</label>
+      <textarea id="notes" name="notes" rows="4"></textarea>
+
+      <button class="tButton" type="submit" >Submit Booking</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 UFC AUTO. All rights reserved.</p>
+  </footer>
+</body>
+</html>
