@@ -14,7 +14,7 @@ body {
   justify-content: center;
   background-color: #9370DB; /* Medium Purple */
   color: white;
-  padding: 5px;
+  padding: 0px;
 }
 /* 动画效果 */
     .fade-in {
@@ -48,7 +48,7 @@ body {
 	margin-right: 10px;
 	}
 .logo img {
-  height: 60px;
+  height: 50px;
   margin-right: 10px;
 }
 
