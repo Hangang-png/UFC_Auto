@@ -5,15 +5,14 @@ body {
   color: #333;
   overflow-x: hidden;
 }
-
-header {
+.banner {
   display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  background-color: #9370DB; /* Medium Purple */
-  color: white;
-  padding: 5px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ background-color: #9370DB; /* Medium Purple */
+ color: white;
+ padding: 5px;
 }
 
 .header-container {
