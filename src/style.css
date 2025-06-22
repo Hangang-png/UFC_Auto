@@ -8,8 +8,9 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   background-color: #9370DB; /* Medium Purple */
   color: white;
   padding: 5px;
