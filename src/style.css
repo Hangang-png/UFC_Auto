@@ -36,22 +36,10 @@ body {
         transform: translateY(0);
       }
     }
-.avatar{
-	.avatar {
-	  width: 100px;
-	  height: 50px;
-	  border-radius: 50%;
-	  overflow: hidden;
-	  border: 3px solid white;
-	  margin-right: 2rem;
-	  margin-bottom: 1rem;
-	  display: flex;
-	  justify-content: center;
-	  align-items: center;
-	}
-}
+
 .logo {
   display: flex;
+  justify-content: center;
   align-items: center;
   font-size: 1.5rem;
   color: red;
