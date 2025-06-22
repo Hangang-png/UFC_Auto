@@ -21,12 +21,16 @@
 
 .hero {
   display: flex;
+  justify-content: center; /* 水平居中整个区域 */
+  align-items: center;
+  gap: 15px; /* 两图之间的间距 */
   background-color: aliceblue;
+   padding: 10px 10px;    /* 原来是 20px，现在减小为左右各10px */
 }
 
 .hero-img {
   flex: 1;
-  padding: 5px;
+  max-width: 640px;      /* 原来是 600px，现在改为 500px，更紧凑 */
 }
 
 .hero-img img {
@@ -34,7 +38,14 @@
   height: 450px;
   object-fit: cover;
   border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
 }
+
+.hero-img img:hover {
+  transform: scale(1.02);
+}
+
 
 .hero-text {
   text-align: center;
