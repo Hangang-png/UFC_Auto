@@ -37,6 +37,7 @@ body {
 .logo img {
   height: 100px;
   margin-right: 10px;
+  
 }
 .rotating {
   border: 3px solid white;
@@ -70,19 +71,9 @@ body {
   border-radius: 4px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  font-size: 2.0rem;
-}
-
-.logo img {
-  height: 100px;
-  margin-right: 10px;
-}
-
 .hero {
   display: flex;
+  flex-wrap:wrap; 
   align-items: center; /* 垂直居中图片和文字 */
   justify-content: center; /* 可选：水平居中整体内容 */
   padding: 20px;
@@ -111,7 +102,8 @@ body {
 .value-boxes{
 	display:flex; 
 	justify-content:center; 
-	flex-wrap:wrap; gap:40px; 
+	flex-wrap:wrap; 
+	gap:40px; 
 	margin: 20px auto; 
 	max-width: 1000px;"
 }
