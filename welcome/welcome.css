@@ -4,15 +4,16 @@ body {
   background-color: aliceblue;
   color: #333;
   overflow-x: hidden;
+  max-width: 100%;
 }
 .banner {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
- background-color: #9370DB; /* Medium Purple */
- color: white;
- padding: 5px;
+  background-color: #9370DB; /* Medium Purple */
+  color: white;
+  padding: 5px;
 }
 .avatar{
 	.avatar {
