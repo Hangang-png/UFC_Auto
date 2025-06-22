@@ -1,6 +1,6 @@
 .horizontal-menu {
   display: flex;
-  justify-content: flex-end; /* 添加这一行使内容靠右对齐 */
+  justify-content: center; /* 水平居中 */
   gap: 20px;
   list-style: none;
   margin: 15px;
@@ -26,7 +26,7 @@
 
 .hero-img {
   display: flex;
-    justify-content: center; /* 水平居中 */
+  justify-content: center; /* 水平居中 */
 }
 
 .hero-img img {
