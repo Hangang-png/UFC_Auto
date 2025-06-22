@@ -39,7 +39,7 @@ body {
 .avatar{
 	.avatar {
 	  width: 100px;
-	  height: 100px;
+	  height: 50px;
 	  border-radius: 50%;
 	  overflow: hidden;
 	  border: 3px solid white;
@@ -56,9 +56,11 @@ body {
   font-size: 2.0rem;
   color: red;
 }
-
+.logo p {
+	margin-right: 20px;
+	}
 .logo img {
-  height: 100px;
+  height: 60px;
   margin-right: 10px;
 }
 
