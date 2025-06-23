@@ -28,7 +28,7 @@
 .hero-img img {
   margin-top: 10px;
   width: 50%;
-  height: 200px;
+  height: auto;
   object-fit: cover;
   border-radius: 8px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.2);
