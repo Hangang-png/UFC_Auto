@@ -31,14 +31,13 @@
 }
 
 .hero-text {
-  display: flex;
-  flex-direction: row;
+  
 }
 .hero-text ul{
 	max-width: 100%;		
 	}
 .hero-text li{
-	margin: 10px;
+	margin: 12px;
 	font-size: 22px;
 }
 .hero-img {
