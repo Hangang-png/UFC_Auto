@@ -35,28 +35,21 @@
   flex-direction: row;
 }
 .hero-text ul{
-	flex: 1;
-	max-width: 50%;		
+	max-width: 100%;		
 	}
 .hero-text li{
-	margin: 30px 20px 10px 100px;
+	margin: 10px;
 	font-size: 22px;
 }
 .hero-img {
-  flex: 1;
-  max-width: 50%;
-  display: flex;
-  align-items: center; /* 垂直居中 */
+  max-width: 100%;  
 }
 
 .hero-img img {
-  width: 100%;
-  height: auto;
-  
+  width: 500px;
+  height: 250px;  
   border-radius: 10px; /* 可选：圆角 */
 }
-
-
 .explore-button {
   text-align: center;
   padding: 20px;
