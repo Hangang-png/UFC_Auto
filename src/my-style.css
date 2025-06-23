@@ -33,7 +33,7 @@ body {
   align-items: center;
   background-color: #9370DB;
   color: white;
-  padding: 4px;
+  padding: 2px;
 }
 
 /* ✅ 电脑屏幕：横向排布 header */
@@ -60,7 +60,7 @@ body {
 	margin-right: 10px;
 	}
 .logo img {
-  height: 50px;
+  height: 40px;
   margin-right: 10px;
 }
 
