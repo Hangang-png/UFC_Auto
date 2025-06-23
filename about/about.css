@@ -1,43 +1,3 @@
-body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #9370DB; /* Medium Purple */
-  color: white;
-  padding: 2px;
-}
-.header-container {
-  display: flex;
-  justify-content: space-between; /* 让 logo 和菜单分列左右 */
-  align-items: center;
-  width: 100%; /* 关键！确保 header-container 占满宽度 */
-}
-.logo {
-  display: flex;
-  align-items: center;
-  font-size: 2.0rem;
-  color: red;
-}
-.logo img {
-  height: 100px;
-  margin-right: 10px;
-}
-.rotating {
-  border: 3px solid white;
-  border-radius: 50%;
-  animation: spin 5s linear infinite;
-}
-@keyframes spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
-}
-
 .horizontal-menu {
   display: flex;
   justify-content: flex-end; /* 添加这一行使内容靠右对齐 */
@@ -59,16 +19,6 @@ header {
   border-radius: 4px;
 }
 
-.logo {
-  display: flex;
-  align-items: center;
-  font-size: 2.0rem;
-}
-
-.logo img {
-  height: 100px;
-  margin-right: 10px;
-}
 .content{
 	margin-left: 60px;
 }
